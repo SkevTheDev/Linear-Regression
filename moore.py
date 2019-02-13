@@ -25,9 +25,9 @@ plt.scatter(X,Y)
 plt.show()
 
 #apply loss function
-denominator = X.dot(X) - X.mean() * X.sum()
-a = (X.dot(Y) - Y.mean() * X.sum()) / denominator
-b = (Y.mean() * X.dot(X) - X.mean() * X.dot(Y) )  / denominator
+#denominator = X.dot(X) - X.mean() * X.sum()
+#a = (X.dot(Y) - Y.mean() * X.sum()) / denominator
+#b = (Y.mean() * X.dot(X) - X.mean() * X.dot(Y) )  / denominator
 
 #compute y-hat (predicted y)
 Yhat = a*X + b

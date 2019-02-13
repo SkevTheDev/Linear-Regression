@@ -13,6 +13,15 @@ for line in open('data_2d.csv'):
 # convert X and Y into numpy arrays
 X = np.array(X)
 Y = np.array(Y)
+X1 = np.random.random_sample([100,])
+
+print(X.shape)
+
+print(X1)
+
+X = np.c_[X, X1]
+
+print(X.shape)
 
 # fig = plt.figure()
 # ax = fig.add_subplot(111, projection='3d')
